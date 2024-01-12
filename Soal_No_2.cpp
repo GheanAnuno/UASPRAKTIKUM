@@ -18,8 +18,11 @@ void main() {
 	}
 	cout << endl;
 vector<double>vect(array, array + dowo);
+	
 sort(vect.begin(), vect.end(), greater<int>());
+	
 cout << "tampilan array sesudah diurutkan dari yang terbesar hingga terkecil\n";
+	
 for (int i = 0; i < vect.size(); i++)
 {
 	cout << vect[i] << " |";
@@ -28,7 +31,9 @@ for (int i = 0; i < vect.size(); i++)
 cout << '\n';
 
 cout << "median data diatas adalah: ";
+	
 median = (vect[4] / 2) + (vect[5] / 2);
+	
 cout << median;
 }
 
