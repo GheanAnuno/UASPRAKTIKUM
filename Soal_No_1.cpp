@@ -13,10 +13,10 @@ int main()
 			cout << "*";
 		}
 		for (int k = 0; k <= (2 * i - 1); k++) {
-			cout << "*";
+			cout << "";
 		}
 		for (int j = pola; j > i; j--) {
-			cout << "";
+			cout << " * ";
 		}
 
 		cout << endl;
